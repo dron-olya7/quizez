@@ -1,0 +1,141 @@
+.answers {
+   padding-top: 20px;
+   padding-bottom: 60px;
+}
+
+.answers .container {
+}
+
+.answers-result-text {
+   display: flex;
+   align-items: center;
+   margin-bottom: 60px;
+}
+
+.answers-result-text-title {
+   display: flex;
+   align-items: center;
+
+   color: #dcdcf3;
+   font-size: 20px;
+   line-height: 24px;
+}
+.answers-result-text-title img {
+   margin: 0 15px;
+}
+
+.answers-result-text-name {
+   color: #6933dc;
+   font-size: 20px;
+   line-height: 24px;
+}
+
+.answers-title {
+   font-family: "Museo Sans Cyrl Bold", sans-serif;
+   font-size: 54px;
+   line-height: 65px;
+   margin-bottom: 10px;
+}
+.answers-title span {
+   color: #6933dc;
+}
+
+.answers-user {
+   font-family: "Museo Sans Cyrl Bold", sans-serif;
+   font-size: 20px;
+   line-height: 24px;
+   margin-bottom: 60px;
+}
+
+.answers-user span {
+   color: #6933dc;
+}
+
+.answers-list {
+}
+
+.answers-list-item {
+   margin-bottom: 60px;
+}
+
+.answers-question-title {
+   font-family: "Museo Sans Cyrl Bold", sans-serif;
+   font-size: 36px;
+   line-height: 43px;
+   margin-bottom: 40px;
+}
+.answers-question-title span {
+   color: #6933DC;
+}
+
+.answers-question-options {
+}
+
+.answers-question-option {
+   display: flex;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+
+.answers-question-option label {
+   cursor: pointer;
+}
+
+.back-action {
+   display: flex;
+   justify-content: flex-end;
+
+   color: #6933dc;
+   font-size: 17px;
+   line-height: 20px;
+}
+.back-action a {
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+}
+
+.back-action img {
+   margin-left: 13px;
+}
+
+/*=> common*/
+input[type="radio"] {
+   appearance: none;
+   -webkit-appearance: none;
+   width: 20px;
+   height: 20px;
+   border: 3px solid #6933DC;
+   border-radius: 50%;
+   margin: 0 13px 0 0;
+   transform: translateY(2px);
+
+   display: grid;
+   place-content: center;
+}
+input[type="radio"]::before {
+   content: "";
+   height: 10px;
+   width: 10px;
+   border-radius: 50%;
+   box-shadow: inset 10px 10px #6933DC;
+   transition: .2s ease transform;
+   transform: scale(0);
+}
+input[type="radio"]:checked::before {
+   transform: scale(1);
+}
+
+.correct input[type="radio"]{
+   border: 6px solid #5FDC33;
+}
+.correct label {
+   color: #5FDC33;
+}
+
+.wrong input[type="radio"]{
+   border: 6px solid #DC3333;
+}
+.wrong label {
+   color: #DC3333;
+}
