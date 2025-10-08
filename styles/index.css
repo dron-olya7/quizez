@@ -1,0 +1,32 @@
+
+
+
+.index {
+   padding-top: 190px;
+   padding-bottom: 231px;
+}
+
+.index .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.index-content {
+   max-width: 588px;
+}
+
+.index-discription {
+   margin-top: 40px;
+font-size: 20px;
+line-height: 24px;
+max-width: 486px;
+}
+
+.index-button {
+   margin-top: 60px;
+}
+
+
+
+
